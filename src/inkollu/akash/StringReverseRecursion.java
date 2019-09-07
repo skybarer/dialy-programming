@@ -13,6 +13,6 @@ public class StringReverseRecursion {
     }
 
     public static void main(String[] args) {
-        System.out.println("StringReverseRecursion: "+ reverse("cat"));
+        System.out.println("StringReverseRecursion: " + reverse("cat"));
     }
 }
