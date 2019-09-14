@@ -7,14 +7,13 @@ package inkollu.akash;
  */
 public class TaylorSeries {
 
+    private static double p = 1;
+    private static double f = 1;
 
     // https://en.wikipedia.org/wiki/Taylor_series
     private static double exp(int x, int n) {
-        double p = 1;
-        double f = 1;
         double r;
         if (n == 0) return 1;
-
         r = exp(x, n - 1);
         p = p * x;
         f = f * n;
@@ -22,8 +21,7 @@ public class TaylorSeries {
     }
 
 
-
     public static void main(String[] args) {
-        System.out.println("TaylorSeries: " + exp(1, 1));
+        System.out.println("TaylorSeries: " + exp(1, 10));
     }
 }
