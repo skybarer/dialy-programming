@@ -17,9 +17,8 @@ public class ArrayReverse {
 
     private static void reverse(int[] arr) {
         int n = arr.length - 1;
-        int j = n;
-        for (int i = 0; i <= n / 2; i++) {
-            swap(arr, i, n--);
+        for (int i = 0, j = n; i <= n / 2; i++, j--) {
+            swap(arr, i, j);
         }
     }
 
