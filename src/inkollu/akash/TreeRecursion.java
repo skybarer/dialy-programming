@@ -19,7 +19,6 @@ public class TreeRecursion {
 
     public static void main(String[] args) {
         fun(3);
-        // fifteen calls are created O(2^n)
         System.out.println("count : "+count);
     }
 }

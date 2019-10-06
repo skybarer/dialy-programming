@@ -7,7 +7,7 @@ package inkollu.akash;
  */
 public class SingleMissingInSortedArray {
 
-    public static int missingInSortedArray(int[] arr) {
+    private static int missingInSortedArray(int[] arr) {
         int sum = 0;
         int n = arr[arr.length - 1];
         for (int ele : arr) {

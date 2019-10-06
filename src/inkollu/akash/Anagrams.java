@@ -9,7 +9,7 @@ import java.util.Arrays;
  */
 public class Anagrams {
 
-    public static boolean areAnagrams(String s1, String s2) {
+    private static boolean areAnagrams(String s1, String s2) {
         char[] chA1 = s1.toCharArray();
         char[] chA2 = s2.toCharArray();
         Arrays.sort(chA1);

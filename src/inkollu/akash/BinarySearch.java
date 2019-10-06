@@ -10,38 +10,22 @@ import java.util.Arrays;
 public class BinarySearch {
 
     private static int rBinSearch(int[] arr, int l, int r, int key) {
-
         if (l <= r) {
             int mid = (l + r) / 2;
-
-            if (arr[mid] == key) {
-                return mid;
-            }
-            if (arr[mid] > key) {
-                return rBinSearch(arr, l, mid - 1, key);
-            }
+            if (arr[mid] == key) return mid;
+            if (arr[mid] > key) return rBinSearch(arr, l, mid - 1, key);
             return rBinSearch(arr, mid + 1, r, key);
         }
-
         return -1;
     }
 
     private static int binSearch(int[] arr, int l, int r, int key) {
-
         while (l <= r) {
             int mid = (l + r) / 2;
-
-            if (arr[mid] == key) {
-                return mid;
-            }
-            if (arr[mid] > key) {
-                r = mid - 1;
-            }
-            if (arr[mid] < key) {
-                l = mid + 1;
-            }
+            if (arr[mid] == key) return mid;
+            if (arr[mid] > key) r = mid - 1;
+            if (arr[mid] < key) l = mid + 1;
         }
-
         return -1;
     }
 
