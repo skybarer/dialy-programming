@@ -10,10 +10,9 @@ public class SingleMissingInSortedArray {
     private static int missingInSortedArray(int[] arr) {
         int sum = 0;
         int n = arr[arr.length - 1];
-        for (int ele : arr) {
-            sum += ele;
-        }
-        return n * (n + 1) / 2 - sum;
+        for (int ele : arr) sum += ele;
+        int ap = n * (n + 1) / 2;
+        return ap - sum;
     }
 
     public static void main(String[] args) {
