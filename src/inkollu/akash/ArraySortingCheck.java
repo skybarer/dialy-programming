@@ -8,7 +8,8 @@ package inkollu.akash;
 public class ArraySortingCheck {
 
     private static boolean isSorted(int[] arr) {
-        for (int i = 0; i < arr.length -1; i++) {
+        int n =  arr.length -1;
+        for (int i = 0; i < n; i++) {
             if (arr[i] > arr[i + 1]) return false;
         }
         return true;

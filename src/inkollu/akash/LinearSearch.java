@@ -17,6 +17,7 @@ public class LinearSearch {
 
     public static void main(String[] args) {
         int[] arr = {23, 32312, 3232, 3232432, 32432342, 32432, 43243, 6234, 3776, 34523, 52534, 3452, 2354};
-        System.out.println("LinearSearch index found at : " + search(arr, 2354));
+        int key = 2354;
+        System.out.println("LinearSearch index found at : " + search(arr, key));
     }
 }

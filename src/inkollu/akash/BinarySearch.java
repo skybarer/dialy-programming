@@ -31,8 +31,9 @@ public class BinarySearch {
 
     public static void main(String[] args) {
         int[] arr = {23, 32312, 3232, 3232432, 32432342, 32432, 43243, 6234, 3776, 34523, 52534, 3452, 2354};
+        int key = 52534;
         Arrays.sort(arr);
-        System.out.println("BinarySearch : " + rBinSearch(arr, 0, arr.length - 1, 52534));
-        System.out.println("BinarySearch : " + binSearch(arr, 0, arr.length - 1, 52534));
+        System.out.println("BinarySearch : " + rBinSearch(arr, 0, arr.length - 1, key));
+        System.out.println("BinarySearch : " + binSearch(arr, 0, arr.length - 1, key));
     }
 }
