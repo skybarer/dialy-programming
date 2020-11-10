@@ -41,6 +41,7 @@ basic programs for biggeners
 |-|
 |[**BubbleSort**](https://github.com/skybarer/dialy-programming/blob/master/src/inkollu/akash/BubbleSort.java)|
 |[**InsertionSort**](https://github.com/skybarer/dialy-programming/blob/master/src/inkollu/akash/InsertionSort.java)|
+|[**SelectionSort**](https://github.com/skybarer/dialy-programming/blob/master/src/inkollu/akash/SelectionSort.java)|
 |[**MergeSort**](https://github.com/skybarer/dialy-programming/blob/master/src/inkollu/akash/MergeSort.java)|
 |[**QuickSort**](https://github.com/skybarer/dialy-programming/blob/master/src/inkollu/akash/QuickSort.java)|
 |[**MergeSortedArrays**](https://github.com/skybarer/dialy-programming/blob/master/src/inkollu/akash/MergeSortedArrays.java)|
